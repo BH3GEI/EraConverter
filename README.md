@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 历史年份转换器
 
-## Getting Started
+一个优雅的历史年份转换工具，可以在中国历、日本历和西历（公元纪年）之间进行转换。
 
-First, run the development server:
+## 特点
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- 精确到每个年号的转换，而不仅仅是朝代
+- 支持中国自夏商周至明清时期及民国的年号
+- 包含春秋战国、秦朝、汉朝等早期历史时期
+- 支持日本江户时期至现代的年号
+- 双向转换：西历→中/日历和中/日历→西历
+- 支持公元前（BCE）和公元（CE）年份的显示和输入
+- 优雅且人性化的用户界面
+- 响应式设计，适配各种设备
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 技术栈
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 开始使用
 
-## Learn More
+1. 克隆仓库
+2. 安装依赖：`npm install`
+3. 启动开发服务器：`npm run dev`
+4. 在浏览器中打开 [http://localhost:3000](http://localhost:3000)
 
-To learn more about Next.js, take a look at the following resources:
+## 使用方法
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 西历→中/日历转换
+1. 输入西历年份（公元年份，负数表示公元前）
+2. 自动显示对应的中国历和日本历年号
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 中/日历→西历转换
+1. 选择中国历或日本历年号
+2. 输入年号内年份（如明治1年、康熙8年）
+3. 自动显示对应的西历年份
 
-## Deploy on Vercel
+## 数据范围
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- 中国历：夏朝（约公元前2070年）至民国时期(1949年)
+- 日本历：江户时期元禄年间(1688年)至现代令和时期(2019年至今)
+- 西历：公元前3000年至公元2100年
