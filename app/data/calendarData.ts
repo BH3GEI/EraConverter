@@ -365,16 +365,132 @@ export const chineseCalendar: CalendarSystem = {
     // Northern and Southern Dynasties (420-589)
     // Song (420-479)
     { name: "永初", startYear: 420, endYear: 422, dynasty: "宋", emperor: "宋武帝刘裕" },
-    { name: "景平", startYear: 423, endYear: 424, dynasty: "宋" },
-    { name: "元嘉", startYear: 424, endYear: 453, dynasty: "宋" },
-    { name: "孝建", startYear: 454, endYear: 456, dynasty: "宋" },
-    { name: "大明", startYear: 457, endYear: 464, dynasty: "宋" },
-    { name: "永光", startYear: 465, endYear: 465, dynasty: "宋" },
-    { name: "景和", startYear: 465, endYear: 465, dynasty: "宋" },
-    { name: "泰始", startYear: 465, endYear: 471, dynasty: "宋" },
-    { name: "泰豫", startYear: 472, endYear: 472, dynasty: "宋" },
-    { name: "元徽", startYear: 473, endYear: 477, dynasty: "宋" },
-    { name: "升明", startYear: 477, endYear: 479, dynasty: "宋" },
+    { name: "景平", startYear: 423, endYear: 424, dynasty: "宋", emperor: "宋少帝刘义符" },
+    { name: "元嘉", startYear: 424, endYear: 453, dynasty: "宋", emperor: "宋文帝刘义隆" },
+    { name: "孝建", startYear: 454, endYear: 456, dynasty: "宋", emperor: "宋孝武帝刘骏" },
+    { name: "大明", startYear: 457, endYear: 464, dynasty: "宋", emperor: "宋孝武帝刘骏" },
+    { name: "永光", startYear: 465, endYear: 465, dynasty: "宋", emperor: "宋废帝刘子业" },
+    { name: "景和", startYear: 465, endYear: 465, dynasty: "宋", emperor: "宋废帝刘子业" },
+    { name: "泰始", startYear: 465, endYear: 471, dynasty: "宋", emperor: "宋明帝刘彧" },
+    { name: "泰豫", startYear: 472, endYear: 472, dynasty: "宋", emperor: "宋废帝刘昱" },
+    { name: "元徽", startYear: 473, endYear: 477, dynasty: "宋", emperor: "宋后废帝刘昱" },
+    { name: "升明", startYear: 477, endYear: 479, dynasty: "宋", emperor: "宋顺帝刘准" },
+    
+    // Southern Qi (479-502)
+    { name: "建元", startYear: 479, endYear: 482, dynasty: "南齐", emperor: "齐高帝萧道成" },
+    { name: "永明", startYear: 483, endYear: 493, dynasty: "南齐", emperor: "齐武帝萧赜" },
+    { name: "隆昌", startYear: 494, endYear: 494, dynasty: "南齐", emperor: "齐废帝萧昭业" },
+    { name: "延兴", startYear: 494, endYear: 494, dynasty: "南齐", emperor: "齐废帝萧昭业" },
+    { name: "建武", startYear: 494, endYear: 498, dynasty: "南齐", emperor: "齐明帝萧鸾" },
+    { name: "永泰", startYear: 498, endYear: 498, dynasty: "南齐", emperor: "齐明帝萧鸾" },
+    { name: "中兴", startYear: 499, endYear: 501, dynasty: "南齐", emperor: "齐东昏侯萧宝卷" },
+    { name: "永元", startYear: 499, endYear: 501, dynasty: "南齐", emperor: "齐东昏侯萧宝卷" },
+    { name: "建武", startYear: 502, endYear: 502, dynasty: "南齐", emperor: "齐和帝萧宝融" },
+    
+    // Southern Liang (502-557)
+    { name: "天监", startYear: 502, endYear: 519, dynasty: "南梁", emperor: "梁武帝萧衍" },
+    { name: "普通", startYear: 520, endYear: 527, dynasty: "南梁", emperor: "梁武帝萧衍" },
+    { name: "大通", startYear: 527, endYear: 529, dynasty: "南梁", emperor: "梁武帝萧衍" },
+    { name: "中大通", startYear: 529, endYear: 534, dynasty: "南梁", emperor: "梁武帝萧衍" },
+    { name: "大同", startYear: 535, endYear: 545, dynasty: "南梁", emperor: "梁武帝萧衍" },
+    { name: "中大同", startYear: 546, endYear: 547, dynasty: "南梁", emperor: "梁武帝萧衍" },
+    { name: "太清", startYear: 547, endYear: 549, dynasty: "南梁", emperor: "梁武帝萧衍" },
+    { name: "大宝", startYear: 550, endYear: 551, dynasty: "南梁", emperor: "梁简文帝萧纲" },
+    { name: "天正", startYear: 551, endYear: 552, dynasty: "南梁", emperor: "梁简文帝萧纲" },
+    { name: "承圣", startYear: 552, endYear: 555, dynasty: "南梁", emperor: "梁元帝萧绎" },
+    { name: "天成", startYear: 555, endYear: 555, dynasty: "南梁", emperor: "梁元帝萧绎" },
+    { name: "绍泰", startYear: 555, endYear: 556, dynasty: "南梁", emperor: "梁元帝萧绎" },
+    { name: "太平", startYear: 556, endYear: 557, dynasty: "南梁", emperor: "梁元帝萧绎" },
+    
+    // Western Liang (555-587, vassal of Western Wei and Northern Zhou)
+    { name: "天保", startYear: 550, endYear: 551, dynasty: "西梁", emperor: "梁恭帝萧顺之", isAlternateRegime: true },
+    { name: "大定", startYear: 557, endYear: 562, dynasty: "西梁", emperor: "梁静帝萧岿", isAlternateRegime: true },
+    { name: "广运", startYear: 562, endYear: 585, dynasty: "西梁", emperor: "梁静帝萧岿", isAlternateRegime: true },
+    { name: "大定", startYear: 585, endYear: 587, dynasty: "西梁", emperor: "梁静帝萧岿", isAlternateRegime: true },
+    
+    // Later Liang (555-587, vassal of Chen)
+    { name: "天正", startYear: 557, endYear: 559, dynasty: "后梁", emperor: "梁敬帝萧方智", isAlternateRegime: true },
+    { name: "光大", startYear: 559, endYear: 560, dynasty: "后梁", emperor: "梁敬帝萧方智", isAlternateRegime: true },
+    { name: "永定", startYear: 560, endYear: 562, dynasty: "后梁", emperor: "萧大宝", isAlternateRegime: true },
+    { name: "承圣", startYear: 562, endYear: 562, dynasty: "后梁", emperor: "萧大宝", isAlternateRegime: true },
+    { name: "天和", startYear: 562, endYear: 565, dynasty: "后梁", emperor: "梁明帝萧岩", isAlternateRegime: true },
+    { name: "广运", startYear: 565, endYear: 576, dynasty: "后梁", emperor: "萧琮", isAlternateRegime: true },
+    { name: "承圣", startYear: 576, endYear: 577, dynasty: "后梁", emperor: "萧琮", isAlternateRegime: true },
+    { name: "大建", startYear: 577, endYear: 579, dynasty: "后梁", emperor: "梁世宗萧瑜", isAlternateRegime: true },
+    { name: "至德", startYear: 583, endYear: 586, dynasty: "后梁", emperor: "萧氏", isAlternateRegime: true },
+    
+    // Chen (557-589)
+    { name: "永定", startYear: 557, endYear: 559, dynasty: "陈", emperor: "陈武帝陈霸先" },
+    { name: "天嘉", startYear: 560, endYear: 566, dynasty: "陈", emperor: "陈文帝陈蒨" },
+    { name: "天康", startYear: 566, endYear: 568, dynasty: "陈", emperor: "陈文帝陈蒨" },
+    { name: "光大", startYear: 567, endYear: 569, dynasty: "陈", emperor: "陈废帝陈伯宗" },
+    { name: "太建", startYear: 569, endYear: 582, dynasty: "陈", emperor: "陈宣帝陈顼" },
+    { name: "祯明", startYear: 587, endYear: 589, dynasty: "陈", emperor: "陈后主陈叔宝" },
+    
+    // Northern Wei (386-534)
+    { name: "登国", startYear: 386, endYear: 396, dynasty: "北魏", emperor: "魏道武帝拓跋珪", isAlternateRegime: true },
+    { name: "皇始", startYear: 396, endYear: 398, dynasty: "北魏", emperor: "魏道武帝拓跋珪", isAlternateRegime: true },
+    { name: "天兴", startYear: 398, endYear: 404, dynasty: "北魏", emperor: "魏道武帝拓跋珪", isAlternateRegime: true },
+    { name: "天赐", startYear: 404, endYear: 409, dynasty: "北魏", emperor: "魏道武帝拓跋珪", isAlternateRegime: true },
+    { name: "永兴", startYear: 409, endYear: 414, dynasty: "北魏", emperor: "魏明元帝拓跋嗣", isAlternateRegime: true },
+    { name: "神瑞", startYear: 414, endYear: 416, dynasty: "北魏", emperor: "魏明元帝拓跋嗣", isAlternateRegime: true },
+    { name: "泰常", startYear: 416, endYear: 423, dynasty: "北魏", emperor: "魏明元帝拓跋嗣", isAlternateRegime: true },
+    { name: "始光", startYear: 424, endYear: 428, dynasty: "北魏", emperor: "魏太武帝拓跋焘", isAlternateRegime: true },
+    { name: "神麚", startYear: 428, endYear: 431, dynasty: "北魏", emperor: "魏太武帝拓跋焘", isAlternateRegime: true },
+    { name: "延和", startYear: 432, endYear: 434, dynasty: "北魏", emperor: "魏太武帝拓跋焘", isAlternateRegime: true },
+    { name: "太延", startYear: 435, endYear: 440, dynasty: "北魏", emperor: "魏太武帝拓跋焘", isAlternateRegime: true },
+    { name: "太平真君", startYear: 440, endYear: 451, dynasty: "北魏", emperor: "魏太武帝拓跋焘", isAlternateRegime: true },
+    { name: "正平", startYear: 451, endYear: 452, dynasty: "北魏", emperor: "魏太武帝拓跋焘", isAlternateRegime: true },
+    { name: "兴安", startYear: 452, endYear: 454, dynasty: "北魏", emperor: "魏文成帝拓跋浚", isAlternateRegime: true },
+    { name: "治安", startYear: 455, endYear: 459, dynasty: "北魏", emperor: "魏文成帝拓跋浚", isAlternateRegime: true },
+    { name: "和平", startYear: 460, endYear: 465, dynasty: "北魏", emperor: "魏文成帝拓跋浚", isAlternateRegime: true },
+    { name: "天安", startYear: 466, endYear: 466, dynasty: "北魏", emperor: "魏献文帝拓跋弘", isAlternateRegime: true },
+    { name: "皇兴", startYear: 467, endYear: 471, dynasty: "北魏", emperor: "魏献文帝拓跋弘", isAlternateRegime: true },
+    { name: "延兴", startYear: 471, endYear: 476, dynasty: "北魏", emperor: "魏献文帝拓跋弘", isAlternateRegime: true },
+    { name: "承明", startYear: 476, endYear: 476, dynasty: "北魏", emperor: "魏献文帝拓跋弘", isAlternateRegime: true },
+    { name: "太和", startYear: 477, endYear: 499, dynasty: "北魏", emperor: "魏孝文帝元宏", isAlternateRegime: true },
+    { name: "景明", startYear: 500, endYear: 503, dynasty: "北魏", emperor: "魏宣武帝元恪", isAlternateRegime: true },
+    { name: "正始", startYear: 504, endYear: 508, dynasty: "北魏", emperor: "魏宣武帝元恪", isAlternateRegime: true },
+    { name: "永平", startYear: 508, endYear: 512, dynasty: "北魏", emperor: "魏宣武帝元恪", isAlternateRegime: true },
+    { name: "延昌", startYear: 512, endYear: 515, dynasty: "北魏", emperor: "魏宣武帝元恪", isAlternateRegime: true },
+    { name: "熙平", startYear: 516, endYear: 518, dynasty: "北魏", emperor: "魏孝明帝元诩", isAlternateRegime: true },
+    { name: "神龟", startYear: 518, endYear: 520, dynasty: "北魏", emperor: "魏孝明帝元诩", isAlternateRegime: true },
+    { name: "正光", startYear: 520, endYear: 525, dynasty: "北魏", emperor: "魏孝明帝元诩", isAlternateRegime: true },
+    { name: "孝昌", startYear: 525, endYear: 527, dynasty: "北魏", emperor: "魏孝明帝元诩", isAlternateRegime: true },
+    { name: "武泰", startYear: 528, endYear: 528, dynasty: "北魏", emperor: "魏孝庄帝元子攸", isAlternateRegime: true },
+    { name: "建义", startYear: 528, endYear: 529, dynasty: "北魏", emperor: "魏长广王元晔", isAlternateRegime: true },
+    { name: "永安", startYear: 528, endYear: 530, dynasty: "北魏", emperor: "魏孝庄帝元子攸", isAlternateRegime: true },
+    { name: "建明", startYear: 530, endYear: 531, dynasty: "北魏", emperor: "魏节闵帝元恭", isAlternateRegime: true },
+    { name: "永熙", startYear: 532, endYear: 534, dynasty: "北魏", emperor: "魏孝武帝元修", isAlternateRegime: true },
+    
+    // Eastern Wei (534-550)
+    { name: "天平", startYear: 534, endYear: 537, dynasty: "东魏", emperor: "魏孝静帝元善见", isAlternateRegime: true },
+    { name: "元象", startYear: 538, endYear: 539, dynasty: "东魏", emperor: "魏孝静帝元善见", isAlternateRegime: true },
+    { name: "兴和", startYear: 539, endYear: 542, dynasty: "东魏", emperor: "魏孝静帝元善见", isAlternateRegime: true },
+    { name: "武定", startYear: 543, endYear: 550, dynasty: "东魏", emperor: "魏孝静帝元善见", isAlternateRegime: true },
+    
+    // Western Wei (535-557)
+    { name: "大统", startYear: 535, endYear: 551, dynasty: "西魏", emperor: "魏文帝元宝炬", isAlternateRegime: true },
+    { name: "大统", startYear: 551, endYear: 554, dynasty: "西魏", emperor: "魏废帝元钦", isAlternateRegime: true },
+    { name: "大统", startYear: 554, endYear: 556, dynasty: "西魏", emperor: "魏恭帝元廓", isAlternateRegime: true },
+    
+    // Northern Qi (550-577)
+    { name: "天保", startYear: 550, endYear: 559, dynasty: "北齐", emperor: "齐文宣帝高洋", isAlternateRegime: true },
+    { name: "乾明", startYear: 560, endYear: 560, dynasty: "北齐", emperor: "齐废帝高殷", isAlternateRegime: true },
+    { name: "皇建", startYear: 560, endYear: 561, dynasty: "北齐", emperor: "齐孝昭帝高演", isAlternateRegime: true },
+    { name: "太宁", startYear: 561, endYear: 562, dynasty: "北齐", emperor: "齐武成帝高湛", isAlternateRegime: true },
+    { name: "河清", startYear: 562, endYear: 565, dynasty: "北齐", emperor: "齐武成帝高湛", isAlternateRegime: true },
+    { name: "天统", startYear: 565, endYear: 569, dynasty: "北齐", emperor: "齐后主高纬", isAlternateRegime: true },
+    { name: "武平", startYear: 570, endYear: 576, dynasty: "北齐", emperor: "齐后主高纬", isAlternateRegime: true },
+    { name: "隆化", startYear: 576, endYear: 577, dynasty: "北齐", emperor: "齐后主高纬", isAlternateRegime: true },
+    
+    // Northern Zhou (557-581)
+    { name: "保定", startYear: 557, endYear: 559, dynasty: "北周", emperor: "周明帝宇文毓", isAlternateRegime: true },
+    { name: "天和", startYear: 566, endYear: 572, dynasty: "北周", emperor: "周武帝宇文邕", isAlternateRegime: true },
+    { name: "建德", startYear: 572, endYear: 577, dynasty: "北周", emperor: "周武帝宇文邕", isAlternateRegime: true },
+    { name: "宣政", startYear: 578, endYear: 579, dynasty: "北周", emperor: "周宣帝宇文赟", isAlternateRegime: true },
+    { name: "大象", startYear: 579, endYear: 579, dynasty: "北周", emperor: "周静帝宇文衍", isAlternateRegime: true },
+    { name: "大定", startYear: 580, endYear: 581, dynasty: "北周", emperor: "周静帝宇文阐", isAlternateRegime: true },
     
     // Sui Dynasty (581-618)
     { name: "开皇", startYear: 581, endYear: 600, dynasty: "隋", emperor: "隋文帝杨坚" },
@@ -694,7 +810,7 @@ export const chineseCalendar: CalendarSystem = {
     { name: "康德", startYear: 1934, endYear: 1945, dynasty: "满洲国", emperor: "溥仪", isAlternateRegime: true },
     
     // Post-1949 Governments
-    { name: "民国(台湾)", startYear: 1949, endYear: 3999, dynasty: "中华民国(台湾)", emperor: "蒋介石(1950-1975), 严家淦(1975-1978), 蒋经国(1978-1988), 李登辉(1988-2000), 陈水扁(2000-2008), 马英九(2008-2016), 蔡英文(2016-2024), 赖清德(2024-现在)", isAlternateRegime: true },
+    { name: "民国(台湾)", startYear: 1912, endYear: 3999, dynasty: "中华民国(台湾)", emperor: "蒋介石(1950-1975), 严家淦(1975-1978), 蒋经国(1978-1988), 李登辉(1988-2000), 陈水扁(2000-2008), 马英九(2008-2016), 蔡英文(2016-2024), 赖清德(2024-现在)", isAlternateRegime: true },
     { name: "中华人民共和国", startYear: 1949, endYear: 2099, dynasty: "共和国", emperor: "毛泽东(1949-1976), 华国锋(1976-1978), 邓小平(1978-1989), 江泽民(1989-2002), 胡锦涛(2002-2012), 习近平(2012-现在)" },
   ]
 };
